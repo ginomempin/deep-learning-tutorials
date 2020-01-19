@@ -1,4 +1,4 @@
-# Deep Learning Tutorials
+# Machine Learning Tutorials
 
 ## References
 
