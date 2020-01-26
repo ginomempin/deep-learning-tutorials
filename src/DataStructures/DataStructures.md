@@ -3,7 +3,7 @@
 * [Perceptron](#perceptron)
     * [Assigning Errors](#assigning-errors)
     * [Assigning Probabilities](#assigning-probabilities-cross-entropy)
-    * [Creating the Model](#creating-the-node)
+    * [Creating the Model](#creating-the-model)
 
 ## Perceptron
 
