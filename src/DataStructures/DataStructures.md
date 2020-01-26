@@ -82,3 +82,5 @@ Once we have an accurate model, we can now use it to make predictions from input
 This is known as the **Perceptron** model.
 
 ![Perceptron-4-1](./Perceptron-4-Node-4.png)
+
+This is the most basic form of a neural network, as it contains only 1 input layer, 1 output layer (activated by a **Sigmoid** function), and no hidden layers in between.
