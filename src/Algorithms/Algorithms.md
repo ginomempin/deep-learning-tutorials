@@ -16,4 +16,4 @@
 
 ![Mean Squared Error](./LinearRegression-MeanSquaredError.jpg)
 
-* Source:
+* Source: [yinyuWu/comp9417-machine-learning-and-data-mining](https://github.com/yinyuWu/comp9417-machine-learning-and-data-mining)
