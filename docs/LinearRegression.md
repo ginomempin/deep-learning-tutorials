@@ -66,11 +66,11 @@ As we try to get the optimal gradient value, we need to iterate in very small st
 
 See this sample visualization using Excel:
 
-![Gradient Descent Visualization](./LinearRegression-GradientDescentSimulation.png)
+![Gradient Descent Visualization](./LinearRegression/LinearRegression-GradientDescentSimulation.png)
 
 Basically, the gradient is like a compass, pointing us in the direction of the smallest error.
 
-<sub><i>Source: [LinearRegression-GradientDescentSimulation.xlsx](./LinearRegression-GradientDescentSimulation.xlsx)</i></sub>
+<sub><i>Source: [LinearRegression-GradientDescentSimulation.xlsx](./LinearRegression/LinearRegression-GradientDescentSimulation.xlsx)</i></sub>
 
 ### Mean Squared Error
 
@@ -78,7 +78,7 @@ The mean squared error is calculated the same way as the loss function, but this
 
 The formula for the Mean Squared Error is given by:
 
-![Mean Squared Error](./LinearRegression-MeanSquaredError.jpg)
+![Mean Squared Error](./LinearRegression/LinearRegression-MeanSquaredError.jpg)
 
 <sub><i>Source: [yinyuWu/comp9417-machine-learning-and-data-mining](https://github.com/yinyuWu/comp9417-machine-learning-and-data-mining)</i></sub>
 
