@@ -1,5 +1,7 @@
 # Machine Learning Tutorials
 
+These are my "notes" as I go through Machine Learning courses and tutorials.
+
 ## References
 
 * PyTorch for Deep Learning and Computer Vision
