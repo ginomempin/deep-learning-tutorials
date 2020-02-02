@@ -2,8 +2,11 @@
 
 ## Contents
 
-*
-*
+* [Non-Linear Boundaries](#non-linear-boundaries)
+* [Architecture](#architecture)
+* [Feedforward](#feedforward)
+* [Error Function](#error-function)
+* [Backpropagation](#backpropagation)
 
 All images sourced from [PyTorch for Deep Learning and Computer Vision (Section 6: Deep Neural Networks)](https://www.udemy.com/course/pytorch-for-deep-learning-and-computer-vision/).
 
