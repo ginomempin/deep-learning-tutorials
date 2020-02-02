@@ -4,7 +4,7 @@
 
 * [Overview](#overview)
 * [Assigning Errors](#assigning-errors)
-* [Assigning Probabilities](#assigning-probabilities-cross-entropy)
+* [Assigning Probabilities (Cross Entropy)](#assigning-probabilities-cross-entropy)
 * [Creating the Model](#creating-the-model)
 
 ## Overview
