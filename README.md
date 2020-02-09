@@ -10,6 +10,7 @@ These are my "notes" as I go through Machine Learning courses and tutorials.
         * [Gradient Descent](./docs/LinearRegression.md#gradient-descent)
         * [Mean Squared Error](./docs/LinearRegression.md#mean-squared-error)
     * [Deep Neural Networks](./docs/DeepNeuralNetworks.md)
+    * [Image Recognition](./docs/ImageRecognition.md)
 * Components
     * [Tensors](https://pytorch.org/docs/stable/tensors.html)
     * [Perceptron](./docs/Perceptron.md)
