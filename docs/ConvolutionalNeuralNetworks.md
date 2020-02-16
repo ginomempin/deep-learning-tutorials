@@ -173,7 +173,7 @@ The **max** pooling function uses a kernel and slides it onto the entire feature
 
 <sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 8: Convolutional Neural Networks](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
 
-The resulting matrices are basically scaled-down versions of the feature map (almost half the size), accounting only the maximum values, but *still* retaining the feature of interest represented in the original feature map. This scaling down reduces the computational cost (smaller-sized matrices), reduces the number of parameters, and reduces chances of overfitting because it produces an abstracted form of the original feature map.
+The resulting matrices are basically scaled-down versions of the feature map, **cutting the matrix size by half**, accounting only the maximum values, but *still* retaining the feature of interest represented in the original feature map. This scaling down reduces the computational cost (smaller-sized matrices), reduces the number of parameters, and reduces chances of overfitting because it produces an abstracted form of the original feature map.
 
 ![CNN-2-Architecture-18.png](./ConvolutionalNeuralNetworks/CNN-2-Architecture-18.png)
 
