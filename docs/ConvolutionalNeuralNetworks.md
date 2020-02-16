@@ -7,7 +7,7 @@
     * [Convolutional Layer](#convolutional-layer)
     * [ReLU](#relu)
     * [Pooling Layer](#pooling-layer)
-    * [... and repeat](#and-repeat)
+    * [... and repeat](#-and-repeat)
     * [Fully-Connected Layer](#fully-connected-layer)
 * [Known CNNs](#known-cnns)
 
