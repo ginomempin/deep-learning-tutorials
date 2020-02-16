@@ -9,6 +9,7 @@
     * [Pooling Layer](#pooling-layer)
     * [... and repeat](#and-repeat)
     * [Fully-Connected Layer](#fully-connected-layer)
+* [Known CNNs](#known-cnns)
 
 ## Overview
 
@@ -235,3 +236,10 @@ The training follows the same way: the network iteratively updates its weights a
 Note that we still use gradient descent to optimize the network to minimize the error. The values of the filter matrices in the **Convolutional Layers** and the connection weights in the **FCN** are the *only* values that change during training. The number of filters, the kernel size, the number of convolutional-pooling layers, and the number of hidden layers in the **FCN** don't change during training. These are parameters that need to be specified before training.
 
 Note also that the process is essentially similar to how we train regular [Deep Neural Networks](./DeepNeuralNetworks.md) and multi-class [Image Recognition](./ImageRecognition.md) models.
+
+## Known CNNs
+
+* LeNet ([[1]](https://engmrk.com/lenet-5-a-classic-cnn-architecture/))
+* AlexNet ([[1]](https://towardsdatascience.com/alexnet-the-architecture-that-challenged-cnns-e406d5297951))
+* GoogleNet ([[1]](https://medium.com/coinmonks/paper-review-of-googlenet-inception-v1-winner-of-ilsvlc-2014-image-classification-c2b3565a64e7))
+* ResNet ([[1]](https://towardsdatascience.com/an-overview-of-resnet-and-its-variants-5281e2f56035))
