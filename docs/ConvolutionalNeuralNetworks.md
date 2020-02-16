@@ -211,6 +211,12 @@ It is analogous to how us humans learn. At a young age, we learn simple concepts
 
 <sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 8: Convolutional Neural Networks](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
 
+It should also be noted that as we use more convolutional-pooling layer combinations, the computational complexity is also reduced, depending on the kernel size and the pooling function.
+
+![CNN-2-Architecture-24.png](./ConvolutionalNeuralNetworks/CNN-2-Architecture-24.png)
+
+<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 8: Convolutional Neural Networks](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
+
 ### Fully Connected Layer
 
 The purpose of the [Convolutional](#convolutional-layer)-[ReLU](#relu)-[Pooling](#pooling-layer) combinations is feature detection/extraction and data representation. Once we've got the feature maps extracted and encoded, the **Fully Connected Layer** (**FCN**) is where the actual classification computations take place.
