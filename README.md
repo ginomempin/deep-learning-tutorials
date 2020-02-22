@@ -30,6 +30,10 @@ These are my "notes" as I go through Machine Learning courses and tutorials.
             * [Pooling Layer](./docs/ConvolutionalNeuralNetworks.md#pooling-layer)
             * [... and repeat](./docs/ConvolutionalNeuralNetworks.md#-and-repeat)
             * [Fully-Connected Layer](./docs/ConvolutionalNeuralNetworks.md#fully-connected-layer)
+    * [Transfer Learning](./docs/TransferLearning.md)
+        * [What is it?](./docs/TransferLearning.md#what-is-transfer-learning)
+        * [When is it used?](./docs/TransferLearning.md#when-do-we-use-it)
+        * [How does it work?](./docs/TransferLearning.md#how-does-it-work)
 * Components
     * [Tensors](https://pytorch.org/docs/stable/tensors.html)
     * [Perceptron](./docs/Perceptron.md)
