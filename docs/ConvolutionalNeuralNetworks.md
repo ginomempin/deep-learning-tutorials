@@ -87,7 +87,13 @@ We then move the kernel by a stride of 1 over the next receptive field. We keep 
 
 ![CNN-2-Architecture-6.png](./ConvolutionalNeuralNetworks/CNN-2-Architecture-6.png)
 
-<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 8: Convolutional Neural Networks](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
+<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 8: Convolutional Neural Networks](https://www.udemy.com/course/pytorch-for-deep-learning-and-computer-vision)</i></sub>
+
+Sometimes, it is necessary to specify a **padding** to preserve the edge pixels when sliding the kernel over the pixels. When dealing with complex datasets, it would make sense to ensure maximal feature extraction by padding the edges such that the kernel's center is correctly applied to each pixel.
+
+![CNN-2-Architecture-25.png](./ConvolutionalNeuralNetworks/CNN-2-Architecture-25.png)
+
+<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 9: CIFAR 10 Classification](https://www.udemy.com/course/pytorch-for-deep-learning-and-computer-vision)</i></sub>
 
 Why is it called a **feature map**? The purpose is to decompose the input into a set of features, and in this example, the feature map shows that this part of the input has an "edge": an area with low intensity (`-6.1`) and an area with high intensity (`-45.5`). The **kernel matrix** can then be thought of as a "feature detector", and in this example, the kernel used was designed to look for "edges" from the input image. The kernels can also detect "edges", "curves", "ridges", and other features that can uniquely distinguish one image from another.
 
