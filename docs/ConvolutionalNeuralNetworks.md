@@ -21,7 +21,7 @@ From the lesson on [Image Recognition](../src/ImageRecognition.ipynb) where a ne
 
 <sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 8: Convolutional Neural Networks](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
 
-The network still has an **input layer** which accepts the input images, a **fully-connected layer** which is the same multi-layered perceptron parameterized by weights and biases, and then an **output layer** which provides probability values for each output class. The **output layer** is produced by the **Softmax** activation function, and the classification depends on the class with the highest probability.
+The network still has an **input layer** which accepts the input images, a **fully-connected layer** which is the same multi-layered perceptron parameterized by weights and biases, and then an **output layer** which provides probability values for each output class. The **output layer** is produced by the [**Softmax**](./Softmax.md) activation function, and the classification depends on the class with the highest probability.
 
 **Convolutional Neural Network** are known to process data that has a **known, grid-like topology**, and are used in pattern-recognition tasks.
 

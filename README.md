@@ -32,6 +32,7 @@ These are my "notes" as I go through Machine Learning courses and tutorials.
 * Components
     * [Tensors](https://pytorch.org/docs/stable/tensors.html)
     * [Perceptron](./docs/Perceptron.md)
+    * [Softmax](./docs/Softmax.md)
 
 ## Tools
 
