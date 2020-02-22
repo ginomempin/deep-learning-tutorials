@@ -21,7 +21,7 @@ It is a multi-class dataset, consisting of 10 output classes, one class for each
 
 ![ImageRecognition-1-MnistOutput.png](./ImageRecognition/ImageRecognition-1-MnistOutput.png)
 
-<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
+<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://www.udemy.com/course/pytorch-for-deep-learning-and-computer-vision)</i></sub>
 
 It contains both a training set and a validation/test set. It is commonly used to demonstrate the power of deep neural networks. It is available for download here <http://yann.lecun.com/exdb/mnist/> OR get it via [`torchvision.datasets`](https://pytorch.org/docs/stable/torchvision/datasets.html#mnist).
 
@@ -33,43 +33,43 @@ When using the MNIST dataset, the inputs to the network typically comes in the f
 
 ![ImageRecognition-2-MnistNNModel-1.png](./ImageRecognition/ImageRecognition-2-MnistNNModel-1.png)
 
-<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
+<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://www.udemy.com/course/pytorch-for-deep-learning-and-computer-vision)</i></sub>
 
 Each pixel contains a random brightness value from 0(black) to 255(white).
 
 ![ImageRecognition-2-MnistNNModel-7.png](./ImageRecognition/ImageRecognition-2-MnistNNModel-7.png)
 
-<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
+<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://www.udemy.com/course/pytorch-for-deep-learning-and-computer-vision)</i></sub>
 
 For a network to analyze these images, the network should look like the following:
 
 ![ImageRecognition-2-MnistNNModel-2.png](./ImageRecognition/ImageRecognition-2-MnistNNModel-2.png)
 
-<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
+<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://www.udemy.com/course/pytorch-for-deep-learning-and-computer-vision)</i></sub>
 
 It will have an input layer containing 784 nodes.
 
 ![ImageRecognition-2-MnistNNModel-3.png](./ImageRecognition/ImageRecognition-2-MnistNNModel-3.png)
 
-<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
+<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://www.udemy.com/course/pytorch-for-deep-learning-and-computer-vision)</i></sub>
 
 It will have a few hidden layers that feedforward the input values.
 
 ![ImageRecognition-2-MnistNNModel-4.png](./ImageRecognition/ImageRecognition-2-MnistNNModel-4.png)
 
-<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
+<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://www.udemy.com/course/pytorch-for-deep-learning-and-computer-vision)</i></sub>
 
 It will have an output layer containing 10 nodes, 1 node for each of the numbers 0 to 9.
 
 ![ImageRecognition-2-MnistNNModel-5.png](./ImageRecognition/ImageRecognition-2-MnistNNModel-5.png)
 
-<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
+<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://www.udemy.com/course/pytorch-for-deep-learning-and-computer-vision)</i></sub>
 
 The output node with the highest probability value indicates which handwritten number the network "sees".
 
 ![ImageRecognition-2-MnistNNModel-6.png](./ImageRecognition/ImageRecognition-2-MnistNNModel-6.png)
 
-<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
+<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://www.udemy.com/course/pytorch-for-deep-learning-and-computer-vision)</i></sub>
 
 ## The Training and Test Sets
 
@@ -79,7 +79,7 @@ The **Training Set** consists of inputs, where each input is correspondingly lab
 
 ![ImageRecognition-3-TrainingTest-1.png](./ImageRecognition/ImageRecognition-3-TrainingTest-1.png)
 
-<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
+<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://www.udemy.com/course/pytorch-for-deep-learning-and-computer-vision)</i></sub>
 
 By continuously and iteratively updating the model's parameters using an optimization algorithm to minimize the error between the predicted and the expected labels, it will eventually be able to correctly classify the inputs from the **Training Set** with high accuracy.
 
@@ -93,11 +93,11 @@ This method of classifying new inputs that don't have labels is called **General
 
 ![ImageRecognition-3-TrainingTest-2.png](./ImageRecognition/ImageRecognition-3-TrainingTest-2.png)
 
-<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
+<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://www.udemy.com/course/pytorch-for-deep-learning-and-computer-vision)</i></sub>
 
 ![ImageRecognition-3-TrainingTest-3.png](./ImageRecognition/ImageRecognition-3-TrainingTest-3.png)
 
-<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
+<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://www.udemy.com/course/pytorch-for-deep-learning-and-computer-vision)</i></sub>
 
 Keep in mind that there comes a point during training that as we further minimize the training error, the test error increases. We want the training error to be small, but we also want the gap between the training error and the test error to be small as well.
 
@@ -109,7 +109,7 @@ The challenge to getting to that optimally minimal training error is **Underfitt
 
 ![ImageRecognition-4-Underfitting-1.png](./ImageRecognition/ImageRecognition-4-Underfitting-1.png)
 
-<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
+<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://www.udemy.com/course/pytorch-for-deep-learning-and-computer-vision)</i></sub>
 
 ## Overfitting
 
@@ -117,7 +117,7 @@ The challenge to keeping the gap between the training error and the test error s
 
 ![ImageRecognition-5-Overfitting-1.png](./ImageRecognition/ImageRecognition-5-Overfitting-1.png)
 
-<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
+<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://www.udemy.com/course/pytorch-for-deep-learning-and-computer-vision)</i></sub>
 
 How would we fix **Overfitting**?
 
@@ -144,13 +144,13 @@ When dealing with multi-class datasets, what we want to get are the raw outputs,
 
 ![ImageRecognition-6-NotesOnTheModel-1.png](./ImageRecognition/ImageRecognition-6-NotesOnTheModel-1.png)
 
-<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
+<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://www.udemy.com/course/pytorch-for-deep-learning-and-computer-vision)</i></sub>
 
 and not the probability values:
 
 ![ImageRecognition-6-NotesOnTheModel-2.png](./ImageRecognition/ImageRecognition-6-NotesOnTheModel-2.png)
 
-<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
+<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://www.udemy.com/course/pytorch-for-deep-learning-and-computer-vision)</i></sub>
 
 The probability values, by nature of the activation functions, are either too close to 0 or too close to 1. We want to avoid continuously passing in values too close to 0 or 1 when iteratively training the model, since it's difficult to precisely represent these values with a float type without experiencing approximation flaws.
 
@@ -160,7 +160,7 @@ Another thing, when the plot of the loss over the epochs appears like this:
 
 ![ImageRecognition-6-NotesOnTheModel-3.png](./ImageRecognition/ImageRecognition-6-NotesOnTheModel-3.png)
 
-<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
+<sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://www.udemy.com/course/pytorch-for-deep-learning-and-computer-vision)</i></sub>
 
 Then it is an indication to **decrease the learning rate**. That plot, where the losses are fluctuating irregularly (instead of always going down) means that the updates to the model parameters are too drastic over each epoch. This phenomenon is called **Divergent Losses** as the loss does not seem to be converging towards the minimum.
 
