@@ -2,19 +2,16 @@
 
 ## Contents
 
-* [MNIST](#mnist)
-    * [The Dataset](#the-dataset)
-    * [The Network](#the-mnist-network-model)
-    * [The Training and Test Sets](#the-training-and-test-sets)
-    * [Underfitting](#underfitting)
-    * [Overfitting](#overfitting)
-    * [Notes on Implementing the Model](#notes-on-implementing-the-model)
+* [The Dataset](#the-dataset)
+* [The Network](#the-network)
+* [The Training and Test Sets](#the-training-and-test-sets)
+* [Underfitting](#underfitting)
+* [Overfitting](#overfitting)
+* [Notes on Implementing the Model](#notes-on-implementing-the-model)
 
-## MNIST
+## The Dataset
 
-### The Dataset
-
-It is essentialy a database of various handwritten digits.
+The MNIST dataset is essentialy a database of various handwritten digits.
 
 ![ImageRecognition-1-MnistDataset.png](./ImageRecognition/ImageRecognition-1-MnistDataset.png)
 
@@ -28,7 +25,7 @@ It is a multi-class dataset, consisting of 10 output classes, one class for each
 
 It contains both a training set and a validation/test set. It is commonly used to demonstrate the power of deep neural networks. It is available for download here <http://yann.lecun.com/exdb/mnist/> OR get it via [`torchvision.datasets`](https://pytorch.org/docs/stable/torchvision/datasets.html#mnist).
 
-### The Network
+## The Network
 
 When using the MNIST dataset, the inputs to the network typically comes in the form of 28x28 images, which means a total of 784 pixels as inputs.
 
@@ -72,7 +69,7 @@ The output node with the highest probability value indicates which handwritten n
 
 <sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
 
-### The Training and Test Sets
+## The Training and Test Sets
 
 Large datasets like the MNIST dataset are typically split into a **Training Set** and a **Test Set**.
 
@@ -104,7 +101,7 @@ Keep in mind that there comes a point during training that as we further minimiz
 
 That being said, the **Test Set** is made available for checking this test error or this **generalization error**. For this purpose, the **Test Set** is collected separately from the **Training Set**. This also helps in checking the performance of the model when deployed to the real-world.
 
-### Underfitting
+## Underfitting
 
 The challenge to getting to that optimally minimal training error is **Underfitting**, where the classifier hasn't completely memorized the pattern, but is not generalizing it enough to make somewhat accurate predictions. **Underfitting** happens when the model has not been provided sufficient capacity to analyze the data's underlying trend or pattern.
 
@@ -112,7 +109,7 @@ The challenge to getting to that optimally minimal training error is **Underfitt
 
 <sub><i>Source: [PyTorch for Deep Learning and Computer Vision - Section 7: Image Recognition](https://github.com/rslim087a/PyTorch-for-Deep-Learning-and-Computer-Vision-Course-All-Codes-)</i></sub>
 
-### Overfitting
+## Overfitting
 
 The challenge to keeping the gap between the training error and the test error small is **Overfitting**, where the classifier has completely memorized the pattern, so the training error is small but it can't generalize to accurately predict the new, test inputs.
 
@@ -130,7 +127,7 @@ How would we fix **Overfitting**?
     * Using larger datasets can also help to reduce **Overfitting**, as the network must now be flexible enough to account for more data.
     * It doesn't always work, but training with more data *can* improve accuracy, so long as all the data is clean and relevant, and not just noisy data.
 
-### Notes on Implementing the Model
+## Notes on Implementing the Model
 
 For the final layer, don't use an activation function.
 
