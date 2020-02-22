@@ -25,6 +25,8 @@ It is a multi-class dataset, consisting of 10 output classes, one class for each
 
 It contains both a training set and a validation/test set. It is commonly used to demonstrate the power of deep neural networks. It is available for download here <http://yann.lecun.com/exdb/mnist/> OR get it via [`torchvision.datasets`](https://pytorch.org/docs/stable/torchvision/datasets.html#mnist).
 
+It is considered as the "*Hello World*" of machine learning because of its simplicity (compared to other datasets), and is usually used as an introduction to creating, training, and testing models.
+
 ## The Network
 
 When using the MNIST dataset, the inputs to the network typically comes in the form of 28x28 images, which means a total of 784 pixels as inputs.
