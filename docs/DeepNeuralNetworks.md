@@ -5,7 +5,7 @@
 * [Non-Linear Boundaries](#non-linear-boundaries)
 * [Architecture](#architecture)
 * [Feedforward](#feedforward)
-* [Error Function](#error-function)
+* [Error Function (Cross Entropy Loss)](#error-function-cross-entropy-loss)
 * [Backpropagation](#backpropagation)
 
 All images sourced from [PyTorch for Deep Learning and Computer Vision (Section 6: Deep Neural Networks)](https://www.udemy.com/course/pytorch-for-deep-learning-and-computer-vision/).
@@ -108,7 +108,7 @@ Here's an example given the inputs `x1 = 2`, `x2 = 2`.
 
 As shown, the inputs travers the *entire* depth of the network, and based on a series of activation functions (**Sigmoid** in this case), it eventually reaches the final prediction/probability. Whether there is just 1 hidden layer as in this example or more than 20 hidden layers, the computation is the same.
 
-## Error Function
+## Error Function (Cross Entropy Loss)
 
 Suppose we have this inaccurate model that incorrectly classifies the input data.
 

@@ -55,7 +55,7 @@ A **Convolutional Neural Network** (or **CNN**) is comprised of 3 types of layer
 * The **pooling** layers
 * The **fully-connected** layers
 
-There is still an **input** layer that accepts the input data, and an **output layer** that stores the predictions (probabilities that the input belongs to one of the output classes). The final predictions are calculated using the **Softmax** activation function.
+There is still an **input** layer that accepts the input data, and an **output layer** that stores the predictions (probabilities that the input belongs to one of the output classes). The final predictions are calculated using the [**Softmax**](./Softmax.md) activation function.
 
 ### Convolutional Layer
 

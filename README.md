@@ -13,7 +13,7 @@ These are my "notes" as I go through Machine Learning courses and tutorials.
         * [Non-Linear Boundaries](./docs/DeepNeuralNetworks.md#non-linear-boundaries)
         * [Architecture](./docs/DeepNeuralNetworks.md#architecture)
         * [Feedforward](./docs/DeepNeuralNetworks.md#feedforward)
-        * [Error Function](./docs/DeepNeuralNetworks.md#error-function)
+        * [Error Function (Cross Entropy Loss)](./docs/DeepNeuralNetworks.md#error-function-cross-entropy-loss)
         * [Backpropagation](./docs/DeepNeuralNetworks.md#backpropagation)
     * [Image Recognition](./docs/ImageRecognition.md)
         * [The MNIST Dataset](./docs/ImageRecognition.md#the-dataset)
@@ -41,6 +41,7 @@ These are my "notes" as I go through Machine Learning courses and tutorials.
     * [Tensors](https://pytorch.org/docs/stable/tensors.html)
     * [Perceptron](./docs/Perceptron.md)
     * [Softmax](./docs/Softmax.md)
+    * [OneHotEncoding](./docs/OneHotEncoding.md)
 
 ## Tools
 
